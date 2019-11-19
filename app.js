@@ -8,7 +8,7 @@ var indexRouter = require('./api/routes/index');
 var questionsRouter = require('./api/routes/questions');
 var scoresRouter = require('./api/routes/scores');
 
-mongoose.connect('mongodb+srv://admin:' + process.env.MONGO_ATLAS_PW + '@cluster0-ivowc.mongodb.net/test?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://jennifer:' + process.env.MONGO_ATLAS_PW + '@cluster0-ivowc.mongodb.net/test?retryWrites=true&w=majority',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true

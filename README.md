@@ -16,10 +16,10 @@ An example of a front end solution built with React can be found [here](https://
 
 {
     "env": {
-        "MONGO_ATLAS_PW": "zZJ9VcAV4dACFSEq"
+        "MONGO_ATLAS_PW": "kasd8asd7w3dijad8"
     }
 }
 
 3. Change the URL of your database collection at app.js
 
-4. Start the server with "nodemon start"
+4. Start the server with "npm start"
